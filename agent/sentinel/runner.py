@@ -158,7 +158,7 @@ def run(chain: Chain, mode: str, ticks: int, warp: bool, interval: int, hold_log
                     r = chain.send(chain.vault.functions.executeTrade(trade))
                     summary["trades"] += 1
                     summary["tx"].append(r["hash"])
-                    st["trades"].append([chain.w3.eth.get_block(r["block"])["timestamp"], o["valueUsd"]])
+                    st["trades"].append([r["timestamp"], o["valueUsd"]])
                     log(line + f"{o['side'].upper():4} {o['asset']} ${o['valueUsd']:>8,.0f} tx {r['hash'][:12]}.. dec {h[:10]}")
                 except Exception as e:
                     summary["failed"] += 1
@@ -174,6 +174,8 @@ def run(chain: Chain, mode: str, ticks: int, warp: bool, interval: int, hold_log
             else:
                 log(line + "HOLD (not logged)")
 
+        if kept and not (mode == "replay" and warp) and mode == "replay":
+            time.sleep(limits.min_interval_sec + 2)   # real-time chain: respect the on-chain min interval before the next tick
         st["tick"] += 1
         st["weights"] = brain.w
         st["prev_prices"] = prices

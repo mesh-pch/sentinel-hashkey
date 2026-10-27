@@ -111,7 +111,9 @@ OWNER_KEY_FILE=keys/owner_key bash scripts/deploy_mainnet.sh
 
 Measured on a mainnet fork: **4,236,667 gas ≈ 2.12 HSK** at the current 500 gwei base fee (+ ~0.0003 HSK L1 data fee). Foundry reserves `gasLimit × maxFee` (≈5.5 HSK) so hold ~6 HSK; only ~2.1 is spent.
 
-Deployed addresses are recorded in `deployments/` (see `DEPLOYMENTS.md`).
+### Live on HashKey Chain testnet (chain 133)
+
+Demo vault: [`0xACdB76B454E9D845f650c0Ad30195E525856e01c`](https://testnet-explorer.hsk.xyz/address/0xACdB76B454E9D845f650c0Ad30195E525856e01c) · StrategyRegistry [`0xf25bc69c…ccd88`](https://testnet-explorer.hsk.xyz/address/0xf25bc69cb149258A1d95519E45020A68930ccd88) · VaultFactory [`0x4Eca5D66…15a8`](https://testnet-explorer.hsk.xyz/address/0x4Eca5D66529Dfc2cEB23f650Cc8f0fe0d2ae15a8). Full list, trade txs and a replayable verification in [`DEPLOYMENTS.md`](DEPLOYMENTS.md): 30 hash-chained log entries (4 trades, 26 holds), `verify` = PASS.
 
 ## Limitations / what's simulated (read this)
 

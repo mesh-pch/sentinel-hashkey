@@ -62,7 +62,16 @@ class Chain:
         rc = self.w3.eth.wait_for_transaction_receipt(h, timeout=180)
         if rc["status"] != 1:
             raise RuntimeError(f"tx reverted {h.hex()}")
-        return {"hash": "0x" + h.hex().removeprefix("0x"), "block": rc["blockNumber"], "gasUsed": rc["gasUsed"]}
+        ts = None
+        for _ in range(8):   # load-balanced public RPCs may lag a moment behind the receipt
+            try:
+                ts = self.w3.eth.get_block(rc["blockNumber"])["timestamp"]
+                break
+            except Exception:
+                time.sleep(1.5)
+        if ts is None:
+            ts = int(time.time())
+        return {"hash": "0x" + h.hex().removeprefix("0x"), "block": rc["blockNumber"], "gasUsed": rc["gasUsed"], "timestamp": ts}
 
     # ---------------------------------------------------------------- reads
     def to_units(self, asset: str, amount: float) -> int:

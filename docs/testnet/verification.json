@@ -1,0 +1,27 @@
+{
+  "vault": "0xACdB76B454E9D845f650c0Ad30195E525856e01c",
+  "chainId": 133,
+  "trades": 4,
+  "holds": 26,
+  "circuitBreakerTrips": 0,
+  "checks": {
+    "hash_chain_recomputes": true,
+    "log_entries": 30,
+    "decisions_published": true,
+    "decisions_untampered": true,
+    "trades_match_declared_orders": true,
+    "decisions_checked": 29
+  },
+  "performance": {
+    "startNav": 100000.0,
+    "endNav": 100259.21,
+    "returnPct": 0.259,
+    "maxDrawdownPct": 0.031,
+    "tradingCostUsd": 54.58,
+    "benchmark5050EndNav": 101996.18,
+    "benchmark5050ReturnPct": 1.996
+  },
+  "problems": [],
+  "ok": true,
+  "logHead": "0x088c1eb386f73af45bd730ad7a0f6b01e1baa3686446a1b793dfcf49a4745f46"
+}
