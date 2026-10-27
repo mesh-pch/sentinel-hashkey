@@ -1,0 +1,225 @@
+== deploying (strategy paramsHash 0x6b73a7b97886bb0303fa3d3bbd8e7d9928c75f94c0dccdba9e929ef1cc482276)
+== agent run (replay, 168 ticks, 1h chain time per tick)
+[tick   0] BTC    83,029 ETH   2,454 NAV $100,000.00 BUY  BTC $   6,738 tx 0x0994df0e17.. dec 0x7c6b54f6
+[tick   0] BTC    83,029 ETH   2,454 NAV $100,000.00 BUY  ETH $   5,989 tx 0x12bea1dc9c.. dec 0x7c6b54f6
+[tick   1] BTC    82,944 ETH   2,446 NAV $ 99,943.73 HOLD  tx 0x140990f907.. dec 0xf7597328
+[tick   2] BTC    82,968 ETH   2,451 NAV $ 99,957.36 HOLD  tx 0x3ac24120fa.. dec 0x0b0f0d2a
+[tick   3] BTC    82,941 ETH   2,454 NAV $ 99,962.60 HOLD  tx 0x642f68cbe6.. dec 0x3a6c9e04
+[tick   4] BTC    82,727 ETH   2,446 NAV $ 99,925.71 HOLD  tx 0x40b07c483e.. dec 0x1968cf3f
+[tick   5] BTC    82,675 ETH   2,443 NAV $ 99,912.74 HOLD  tx 0xc1bba5a749.. dec 0x676f161a
+[tick   6] BTC    82,730 ETH   2,443 NAV $ 99,916.87 BUY  BTC $   5,386 tx 0x569bf6e7bf.. dec 0x8fa1d757
+[tick   6] BTC    82,730 ETH   2,443 NAV $ 99,916.87 BUY  ETH $   6,213 tx 0x043aa56ed8.. dec 0x8fa1d757
+[tick   7] BTC    82,579 ETH   2,436 NAV $ 99,836.55 SELL BTC $   5,517 tx 0x3c67c263f5.. dec 0x86d4c20a
+[tick   7] BTC    82,579 ETH   2,436 NAV $ 99,836.55 SELL ETH $   5,025 tx 0x1ef1456012.. dec 0x86d4c20a
+[tick   8] BTC    82,704 ETH   2,438 NAV $ 99,826.14 HOLD  tx 0x955f10892f.. dec 0x1443047a
+[tick   9] BTC    83,064 ETH   2,454 NAV $ 99,902.05 HOLD  tx 0xbf3f0e6213.. dec 0x9ee75bed
+[tick  10] BTC    83,154 ETH   2,451 NAV $ 99,901.03 HOLD  tx 0xbcdfafee33.. dec 0x5aed8b39
+[tick  11] BTC    83,356 ETH   2,454 NAV $ 99,924.62 HOLD  tx 0xeeed0807e1.. dec 0xbafcf8c0
+[tick  12] BTC    83,311 ETH   2,455 NAV $ 99,924.58 HOLD  tx 0x66be590523.. dec 0xf5073fee
+[tick  13] BTC    83,409 ETH   2,466 NAV $ 99,965.49 HOLD  tx 0x64014e5c99.. dec 0x02c9daec
+[tick  14] BTC    83,411 ETH   2,466 NAV $ 99,965.12 HOLD  tx 0x1d5f623523.. dec 0x8fd97524
+[tick  15] BTC    83,768 ETH   2,472 NAV $100,009.77 HOLD  tx 0x1320200c58.. dec 0xc3ec8e8a
+[tick  16] BTC    84,543 ETH   2,495 NAV $100,139.67 BUY  BTC $   8,134 tx 0x4f6bcbeb0c.. dec 0x4852229c
+[tick  16] BTC    84,543 ETH   2,495 NAV $100,139.67 BUY  ETH $   7,110 tx 0xb2cdcdb238.. dec 0x4852229c
+[tick  17] BTC    84,480 ETH   2,510 NAV $100,170.57 HOLD  tx 0x6e28f39455.. dec 0xc08588c2
+[tick  18] BTC    84,493 ETH   2,508 NAV $100,160.46 HOLD  tx 0xdb665ed286.. dec 0x0bfbe8cf
+[tick  19] BTC    84,629 ETH   2,514 NAV $100,215.33 HOLD  tx 0x0ae3a377e1.. dec 0xf0ef1738
+[tick  20] BTC    84,350 ETH   2,495 NAV $100,059.74 HOLD  tx 0x37773957df.. dec 0x5923ba7e
+[tick  21] BTC    84,449 ETH   2,493 NAV $100,065.02 HOLD  tx 0xb24ffd80d1.. dec 0xae3c81b8
+[tick  22] BTC    84,627 ETH   2,491 NAV $100,084.58 HOLD  tx 0x41b81f6ebd.. dec 0xbfbbcd7f
+[tick  23] BTC    84,778 ETH   2,497 NAV $100,146.63 HOLD  tx 0x9a34d3d6f5.. dec 0x91c2e095
+[tick  24] BTC    84,408 ETH   2,483 NAV $ 99,999.66 SELL ETH $   6,233 tx 0xb18335caea.. dec 0x0c87ff3f
+[tick  25] BTC    84,082 ETH   2,473 NAV $ 99,894.40 SELL BTC $   6,042 tx 0xdbc99a6732.. dec 0xfe22c4b4
+[tick  26] BTC    84,143 ETH   2,472 NAV $ 99,884.23 HOLD  tx 0xf92a41c235.. dec 0x2e9b5cd3
+[tick  27] BTC    83,385 ETH   2,451 NAV $ 99,738.02 SELL ETH $   6,808 tx 0x00ea3c00b5.. dec 0xc3b36328
+[tick  28] BTC    82,860 ETH   2,440 NAV $ 99,660.27 SELL BTC $   8,548 tx 0xbb97924ab7.. dec 0x5d25a599
+[tick  29] BTC    82,863 ETH   2,443 NAV $ 99,634.98 HOLD  tx 0x625119273b.. dec 0x878f1b32
+[tick  30] BTC    82,842 ETH   2,445 NAV $ 99,636.14 HOLD  tx 0x84f72a9a0f.. dec 0x74788050
+[tick  31] BTC    82,755 ETH   2,437 NAV $ 99,632.18 HOLD  tx 0xc2488eae51.. dec 0x299cec9c
+[tick  32] BTC    82,423 ETH   2,431 NAV $ 99,629.66 HOLD  tx 0x7abe44c920.. dec 0x555e50a9
+[tick  33] BTC    82,153 ETH   2,427 NAV $ 99,627.76 HOLD  tx 0x86da4b3c46.. dec 0xfb6ebf41
+[tick  34] BTC    81,777 ETH   2,406 NAV $ 99,618.10 HOLD  tx 0xc4a9b6dbb7.. dec 0xaf07db60
+[tick  35] BTC    81,866 ETH   2,405 NAV $ 99,617.55 HOLD  tx 0xf69ff91779.. dec 0x62a5f55c
+[tick  36] BTC    81,965 ETH   2,404 NAV $ 99,616.97 HOLD  tx 0xb274b872e7.. dec 0x6c7ac776
+[tick  37] BTC    81,695 ETH   2,398 NAV $ 99,614.41 HOLD  tx 0x95343e05c5.. dec 0xc99cbfe7
+[tick  38] BTC    81,625 ETH   2,399 NAV $ 99,614.72 HOLD  tx 0xc9a81b0af2.. dec 0x70f6f20f
+[tick  39] BTC    81,674 ETH   2,410 NAV $ 99,619.55 HOLD  tx 0x726ef53bff.. dec 0xa3873b54
+[tick  40] BTC    81,810 ETH   2,411 NAV $ 99,620.24 HOLD  tx 0x72001e2cab.. dec 0x8f38c656
+[tick  41] BTC    81,609 ETH   2,397 NAV $ 99,613.71 HOLD  tx 0xdcc0499316.. dec 0xe030c0d5
+[tick  42] BTC    81,171 ETH   2,377 NAV $ 99,604.37 HOLD  tx 0x164da9a3f0.. dec 0x39d60a11
+[tick  43] BTC    81,136 ETH   2,378 NAV $ 99,604.91 HOLD  tx 0xb4161326b1.. dec 0x369539b0
+[tick  44] BTC    81,292 ETH   2,382 NAV $ 99,606.98 HOLD  tx 0xe13d63bc2c.. dec 0x86a067ce
+[tick  45] BTC    81,387 ETH   2,384 NAV $ 99,607.82 HOLD  tx 0xdb16bdbeed.. dec 0x0d5325fc
+[tick  46] BTC    81,178 ETH   2,380 NAV $ 99,605.74 HOLD  tx 0x397c57c4c3.. dec 0xc58be6b9
+[tick  47] BTC    81,396 ETH   2,391 NAV $ 99,610.87 HOLD  tx 0x98dba92d32.. dec 0x6afaed85
+[tick  48] BTC    81,255 ETH   2,382 NAV $ 99,606.86 HOLD  tx 0xdd3f87bb9d.. dec 0x239c4aef
+[tick  49] BTC    81,328 ETH   2,386 NAV $ 99,608.87 HOLD  tx 0x7d9c7e2d7a.. dec 0x75e5d163
+[tick  50] BTC    81,374 ETH   2,392 NAV $ 99,611.53 HOLD  tx 0x6df7252fd6.. dec 0x8fcff1e2
+[tick  51] BTC    81,258 ETH   2,390 NAV $ 99,610.38 HOLD  tx 0x003f6d1ca1.. dec 0x023e4496
+[tick  52] BTC    81,869 ETH   2,413 NAV $ 99,621.13 HOLD  tx 0xa3a72d72d7.. dec 0x51568f10
+[tick  53] BTC    81,796 ETH   2,408 NAV $ 99,618.85 HOLD  tx 0x17273909d3.. dec 0xf4249d40
+[tick  54] BTC    81,492 ETH   2,391 NAV $ 99,611.15 HOLD  tx 0x47b45d00d1.. dec 0x6e879a9c
+[tick  55] BTC    81,751 ETH   2,401 NAV $ 99,615.77 HOLD  tx 0x7f2f766ad5.. dec 0x21191d04
+[tick  56] BTC    81,794 ETH   2,407 NAV $ 99,618.35 HOLD  tx 0xac2afd4017.. dec 0x8bfca714
+[tick  57] BTC    81,486 ETH   2,399 NAV $ 99,614.48 HOLD  tx 0x13749689b7.. dec 0x5e2bffa1
+[tick  58] BTC    81,670 ETH   2,404 NAV $ 99,616.96 HOLD  tx 0xa426f83dcd.. dec 0x10ca6fca
+[tick  59] BTC    81,578 ETH   2,396 NAV $ 99,613.33 HOLD  tx 0x53732f38aa.. dec 0xdba2e353
+[tick  60] BTC    81,593 ETH   2,395 NAV $ 99,612.62 HOLD  tx 0x82232618f6.. dec 0xd067e204
+[tick  61] BTC    81,634 ETH   2,400 NAV $ 99,615.01 HOLD  tx 0xf698f31796.. dec 0x4e420cc0
+[tick  62] BTC    81,660 ETH   2,401 NAV $ 99,615.48 HOLD  tx 0xdd7ab5493e.. dec 0x05fbeaae
+[tick  63] BTC    81,894 ETH   2,411 NAV $ 99,620.33 BUY  BTC $   8,698 tx 0x11680b0659.. dec 0x1538c65a
+[tick  63] BTC    81,894 ETH   2,411 NAV $ 99,620.33 BUY  ETH $   7,149 tx 0xb6ba48724a.. dec 0x1538c65a
+[tick  64] BTC    81,689 ETH   2,406 NAV $ 99,533.90 SELL BTC $   6,549 tx 0x37359183e5.. dec 0x44058f38
+[tick  65] BTC    81,591 ETH   2,405 NAV $ 99,511.33 HOLD  tx 0x45099fa65d.. dec 0x9cea18fe
+[tick  66] BTC    81,624 ETH   2,405 NAV $ 99,510.88 HOLD  tx 0xce0aa01fe2.. dec 0xea726641
+[tick  67] BTC    81,557 ETH   2,407 NAV $ 99,516.43 HOLD  tx 0x15da009347.. dec 0x8d53dc05
+[tick  68] BTC    81,368 ETH   2,400 NAV $ 99,488.39 SELL ETH $   8,209 tx 0x220788b3f1.. dec 0xf3a51014
+[tick  69] BTC    81,201 ETH   2,392 NAV $ 99,459.46 HOLD  tx 0x2b13e1c1d0.. dec 0xa2d4ee5c
+[tick  70] BTC    81,338 ETH   2,400 NAV $ 99,462.97 HOLD  tx 0x9615d4cc99.. dec 0xa2491508
+[tick  71] BTC    81,305 ETH   2,397 NAV $ 99,462.13 HOLD  tx 0xf6071699ef.. dec 0x9388a828
+[tick  72] BTC    80,726 ETH   2,363 NAV $ 99,447.26 HOLD  tx 0x516f92aba3.. dec 0x84efea51
+[tick  73] BTC    81,102 ETH   2,385 NAV $ 99,456.92 HOLD  tx 0xc416100e41.. dec 0x3c4fccb4
+[tick  74] BTC    80,553 ETH   2,372 NAV $ 99,442.81 HOLD  tx 0x39af92e2bc.. dec 0xf40877d1
+[tick  75] BTC    80,858 ETH   2,380 NAV $ 99,450.64 HOLD  tx 0xd001ae0e36.. dec 0x24078c12
+[tick  76] BTC    80,908 ETH   2,382 NAV $ 99,451.92 HOLD  tx 0x5c733e4d89.. dec 0x39f883a4
+[tick  77] BTC    80,879 ETH   2,380 NAV $ 99,451.18 HOLD  tx 0xa58bd9b898.. dec 0xb70b6934
+[tick  78] BTC    80,811 ETH   2,381 NAV $ 99,449.43 HOLD  tx 0xf9e70eb57f.. dec 0x4eb4dbd7
+[tick  79] BTC    80,690 ETH   2,376 NAV $ 99,446.33 HOLD  tx 0xeae6cbee2b.. dec 0xb7e1a734
+[tick  80] BTC    80,703 ETH   2,376 NAV $ 99,446.65 HOLD  tx 0x518e6c4301.. dec 0x7e894807
+[tick  81] BTC    80,654 ETH   2,373 NAV $ 99,445.39 HOLD  tx 0xe952ec70c1.. dec 0x5fe922fd
+[tick  82] BTC    80,636 ETH   2,367 NAV $ 99,444.93 HOLD  tx 0xbd47a37c7a.. dec 0x93537492
+[tick  83] BTC    80,547 ETH   2,365 NAV $ 99,442.66 HOLD  tx 0x8fa4a4a55b.. dec 0x13aa29e8
+[tick  84] BTC    80,585 ETH   2,367 NAV $ 99,443.62 HOLD  tx 0xc33987d75d.. dec 0xdff4c5aa
+[tick  85] BTC    80,517 ETH   2,363 NAV $ 99,441.86 HOLD  tx 0xfaa61c3fca.. dec 0xf3716cb1
+[tick  86] BTC    80,710 ETH   2,367 NAV $ 99,446.83 HOLD  tx 0x7bd24cc025.. dec 0x642b88fe
+[tick  87] BTC    80,616 ETH   2,366 NAV $ 99,444.41 HOLD  tx 0x6d08e32559.. dec 0xf8758844
+[tick  88] BTC    80,143 ETH   2,341 NAV $ 99,432.25 HOLD  tx 0xe4d3fee794.. dec 0x51336c64
+[tick  89] BTC    79,730 ETH   2,304 NAV $ 99,421.64 HOLD  tx 0x2e48793b1e.. dec 0xf0db24dd
+[tick  90] BTC    80,155 ETH   2,316 NAV $ 99,432.57 HOLD  tx 0xeb76f28c22.. dec 0x8fdff73f
+[tick  91] BTC    80,198 ETH   2,321 NAV $ 99,433.68 HOLD  tx 0x6d59c463dc.. dec 0xaa38c88b
+[tick  92] BTC    80,464 ETH   2,336 NAV $ 99,440.51 HOLD  tx 0xf04ba54d03.. dec 0x33f08068
+[tick  93] BTC    80,431 ETH   2,339 NAV $ 99,439.67 HOLD  tx 0x1e8909866d.. dec 0xa06ee588
+[tick  94] BTC    80,457 ETH   2,345 NAV $ 99,440.32 HOLD  tx 0xc7c38b4fe2.. dec 0x6b24335c
+[tick  95] BTC    80,348 ETH   2,338 NAV $ 99,437.54 HOLD  tx 0x9aa00562a3.. dec 0x244b5f0c
+[tick  96] BTC    80,525 ETH   2,344 NAV $ 99,442.09 HOLD  tx 0xd7899c9a83.. dec 0xaa7e7139
+[tick  97] BTC    80,811 ETH   2,357 NAV $ 99,449.42 HOLD  tx 0x16814d6d58.. dec 0xfd840853
+[tick  98] BTC    80,803 ETH   2,359 NAV $ 99,449.24 HOLD  tx 0xe1a6c2cc46.. dec 0x0466835a
+[tick  99] BTC    80,809 ETH   2,362 NAV $ 99,449.39 HOLD  tx 0x5c2cfd16e1.. dec 0xd6332558
+[tick 100] BTC    80,844 ETH   2,364 NAV $ 99,450.29 HOLD  tx 0x025885300a.. dec 0x3c0917bd
+[tick 101] BTC    80,785 ETH   2,361 NAV $ 99,448.76 HOLD  tx 0x8c80f28713.. dec 0x1dbdeaa7
+[tick 102] BTC    80,847 ETH   2,366 NAV $ 99,450.36 HOLD  tx 0x102c81d7fa.. dec 0xc8924d05
+[tick 103] BTC    80,535 ETH   2,351 NAV $ 99,442.34 HOLD  tx 0xe8beba1c50.. dec 0x9440add4
+[tick 104] BTC    80,416 ETH   2,339 NAV $ 99,439.28 HOLD  tx 0x6e9aa6a9b3.. dec 0x8708206e
+[tick 105] BTC    80,599 ETH   2,346 NAV $ 99,443.99 HOLD  tx 0x5fb2919ed8.. dec 0x7983d27d
+[tick 106] BTC    80,325 ETH   2,333 NAV $ 99,436.93 HOLD  tx 0x944f11acf7.. dec 0xc4cee921
+[tick 107] BTC    80,254 ETH   2,326 NAV $ 99,435.10 HOLD  tx 0x9ca4297357.. dec 0x15e92d2e
+[tick 108] BTC    80,196 ETH   2,324 NAV $ 99,433.63 HOLD  tx 0x21b556f830.. dec 0xc05faeb4
+[tick 109] BTC    80,505 ETH   2,338 NAV $ 99,441.57 HOLD  tx 0x89155253c4.. dec 0x10f585f1
+[tick 110] BTC    80,371 ETH   2,332 NAV $ 99,438.13 HOLD  tx 0x10024d023b.. dec 0x8798118c
+[tick 111] BTC    80,300 ETH   2,332 NAV $ 99,436.29 HOLD  tx 0x370fb68cea.. dec 0x8a9c39f2
+[tick 112] BTC    80,560 ETH   2,341 NAV $ 99,442.99 HOLD  tx 0x3fcc105c06.. dec 0x92ff0cfd
+[tick 113] BTC    80,557 ETH   2,342 NAV $ 99,442.90 HOLD  tx 0xc575269f89.. dec 0x9cad15fc
+[tick 114] BTC    80,719 ETH   2,354 NAV $ 99,447.07 HOLD  tx 0x30e1cfa3ef.. dec 0x2a9c77f7
+[tick 115] BTC    80,714 ETH   2,356 NAV $ 99,446.94 HOLD  tx 0xbbbc66ddf1.. dec 0x1724bc17
+[tick 116] BTC    80,581 ETH   2,352 NAV $ 99,443.53 HOLD  tx 0xe7c37af5be.. dec 0xf1c21170
+[tick 117] BTC    80,486 ETH   2,349 NAV $ 99,441.07 HOLD  tx 0x0599275b06.. dec 0xeed1eb99
+[tick 118] BTC    80,403 ETH   2,345 NAV $ 99,438.93 HOLD  tx 0x857b07fe5b.. dec 0x1cdb911c
+[tick 119] BTC    80,182 ETH   2,330 NAV $ 99,433.27 HOLD  tx 0x3b402df58a.. dec 0xdf76d120
+[tick 120] BTC    80,388 ETH   2,340 NAV $ 99,438.56 HOLD  tx 0x9ab6118d68.. dec 0xe8e0b4f8
+[tick 121] BTC    80,049 ETH   2,327 NAV $ 99,429.84 HOLD  tx 0x7e77900379.. dec 0x307cb924
+[tick 122] BTC    80,068 ETH   2,327 NAV $ 99,430.33 HOLD  tx 0xbcdc949245.. dec 0x4641106f
+[tick 123] BTC    79,660 ETH   2,312 NAV $ 99,419.84 HOLD  tx 0xa0dadbffb8.. dec 0xb3367427
+[tick 124] BTC    79,490 ETH   2,302 NAV $ 99,415.46 HOLD  tx 0xedcc8ffee8.. dec 0xa154922d
+[tick 125] BTC    79,514 ETH   2,301 NAV $ 99,416.09 HOLD  tx 0xa03dc0b4db.. dec 0x202e9a22
+[tick 126] BTC    80,036 ETH   2,319 NAV $ 99,429.49 HOLD  tx 0xd419672547.. dec 0xe9bfb306
+[tick 127] BTC    80,173 ETH   2,325 NAV $ 99,433.02 HOLD  tx 0xc29f7d17c3.. dec 0x84d83486
+[tick 128] BTC    80,028 ETH   2,317 NAV $ 99,429.30 HOLD  tx 0xd1218cf0f3.. dec 0x31fff998
+[tick 129] BTC    79,966 ETH   2,316 NAV $ 99,427.71 HOLD  tx 0x49bd86eea5.. dec 0x1e980100
+[tick 130] BTC    80,157 ETH   2,323 NAV $ 99,432.62 HOLD  tx 0xdda30e37b5.. dec 0xc449ccf3
+[tick 131] BTC    80,449 ETH   2,333 NAV $ 99,440.14 HOLD  tx 0x1def546c61.. dec 0x61a79b56
+[tick 132] BTC    80,284 ETH   2,326 NAV $ 99,435.87 HOLD  tx 0x75ad1f71e7.. dec 0xcda1aa85
+[tick 133] BTC    80,312 ETH   2,331 NAV $ 99,436.61 HOLD  tx 0xa792d1b8b5.. dec 0xbf16ba75
+[tick 134] BTC    80,233 ETH   2,321 NAV $ 99,434.58 HOLD  tx 0x586b07abe9.. dec 0xd30cefc1
+[tick 135] BTC    79,602 ETH   2,301 NAV $ 99,418.36 HOLD  tx 0xda93fc61c6.. dec 0xc16c5ee8
+[tick 136] BTC    80,268 ETH   2,323 NAV $ 99,435.47 HOLD  tx 0xefd970f577.. dec 0xc4b6ace0
+[tick 137] BTC    80,319 ETH   2,325 NAV $ 99,436.77 HOLD  tx 0x1840a25a26.. dec 0xa39bf98c
+[tick 138] BTC    80,132 ETH   2,318 NAV $ 99,431.98 HOLD  tx 0x74b6479b9e.. dec 0x9c63c956
+[tick 139] BTC    80,235 ETH   2,323 NAV $ 99,434.63 HOLD  tx 0x1fc6c23681.. dec 0xccb69ab8
+[tick 140] BTC    79,888 ETH   2,311 NAV $ 99,425.69 HOLD  tx 0x98bbcb810b.. dec 0xc56f71ae
+[tick 141] BTC    79,912 ETH   2,315 NAV $ 99,426.31 HOLD  tx 0xe483a28b64.. dec 0x8e86ac2d
+[tick 142] BTC    79,751 ETH   2,303 NAV $ 99,422.19 HOLD  tx 0xf562e53687.. dec 0x95bafb61
+[tick 143] BTC    79,987 ETH   2,308 NAV $ 99,428.25 HOLD  tx 0x0a0d653b89.. dec 0x60721931
+[tick 144] BTC    79,876 ETH   2,310 NAV $ 99,425.40 HOLD  tx 0x3f92d9c745.. dec 0xa2438ce2
+[tick 145] BTC    80,029 ETH   2,321 NAV $ 99,429.34 HOLD  tx 0x8de3cc9102.. dec 0x4c385e04
+[tick 146] BTC    80,115 ETH   2,324 NAV $ 99,431.54 HOLD  tx 0xe779dea782.. dec 0x312deb9b
+[tick 147] BTC    79,958 ETH   2,320 NAV $ 99,427.49 HOLD  tx 0x5d95997b48.. dec 0x9e0198ba
+[tick 148] BTC    79,709 ETH   2,311 NAV $ 99,421.11 HOLD  tx 0x71a177bb4e.. dec 0x3dd293db
+[tick 149] BTC    79,704 ETH   2,311 NAV $ 99,420.97 HOLD  tx 0x62659c2223.. dec 0x006837b7
+[tick 150] BTC    79,637 ETH   2,309 NAV $ 99,419.25 HOLD  tx 0xf3d6fe3260.. dec 0x1873628c
+[tick 151] BTC    79,865 ETH   2,313 NAV $ 99,425.10 HOLD  tx 0x52d905c95f.. dec 0x173165e4
+[tick 152] BTC    79,548 ETH   2,302 NAV $ 99,416.95 HOLD  tx 0x4fc4fe8a9b.. dec 0x75392295
+[tick 153] BTC    79,706 ETH   2,312 NAV $ 99,421.03 HOLD  tx 0x57d49adf15.. dec 0x487262ee
+[tick 154] BTC    79,752 ETH   2,310 NAV $ 99,422.19 HOLD  tx 0x2ecaddafc6.. dec 0x1c5d80cc
+[tick 155] BTC    79,658 ETH   2,309 NAV $ 99,419.78 HOLD  tx 0xca97b6ae2a.. dec 0xfca89835
+[tick 156] BTC    79,845 ETH   2,313 NAV $ 99,424.60 HOLD  tx 0xa7863777fc.. dec 0x2e3bd8e8
+[tick 157] BTC    79,787 ETH   2,312 NAV $ 99,423.10 HOLD  tx 0x63759e48ad.. dec 0x486cd5a0
+[tick 158] BTC    80,257 ETH   2,332 NAV $ 99,435.19 HOLD  tx 0xd3a3415e33.. dec 0x5d0f4449
+[tick 159] BTC    79,916 ETH   2,319 NAV $ 99,426.43 HOLD  tx 0x9fc985a89a.. dec 0xc51545de
+[tick 160] BTC    80,267 ETH   2,332 NAV $ 99,435.44 HOLD  tx 0xff30e43011.. dec 0xe2ea5377
+[tick 161] BTC    80,473 ETH   2,344 NAV $ 99,440.73 HOLD  tx 0xf84b0ece07.. dec 0x6254b3c3
+[tick 162] BTC    80,556 ETH   2,348 NAV $ 99,442.87 HOLD  tx 0xa00a207f63.. dec 0x1665325b
+[tick 163] BTC    80,432 ETH   2,344 NAV $ 99,439.68 HOLD  tx 0x95334fe330.. dec 0xb8aae922
+[tick 164] BTC    80,534 ETH   2,341 NAV $ 99,442.30 HOLD  tx 0x4175e66506.. dec 0x1fe04c7a
+[tick 165] BTC    80,711 ETH   2,345 NAV $ 99,446.87 HOLD  tx 0x717029b5ce.. dec 0x6f238c8f
+[tick 166] BTC    80,686 ETH   2,341 NAV $ 99,446.23 HOLD  tx 0x43b8f8d33e.. dec 0x3eaeab34
+[tick 167] BTC    80,825 ETH   2,349 NAV $ 99,449.78 HOLD  tx 0x3999c4dcdd.. dec 0x0ae581e7
+{
+  "trades": 16,
+  "holds": 157,
+  "skipped": 0,
+  "failed": 0,
+  "run_dir": "runs/31337-8daf17a2"
+}
+== red-team probe
+vault NAV $99,449.78; limits: max trade 25% NAV, max slippage 1.0%
+
+  ✓ trade 90% of NAV in one go: rejected by contract -> TradeTooLarge
+  ✓ accept any price (minOut = 0): rejected by contract -> SlippageTooLoose
+  ✓ route through an unlisted venue: rejected by contract -> VenueNotAllowed
+  ✓ agent tries withdraw(): rejected -> OwnableUnauthorizedAccount
+== independent verification
+{
+  "vault": "0x8dAF17A20c9DBA35f005b6324F493785D239719d",
+  "chainId": 31337,
+  "trades": 16,
+  "holds": 157,
+  "circuitBreakerTrips": 0,
+  "checks": {
+    "hash_chain_recomputes": true,
+    "log_entries": 173,
+    "decisions_published": true,
+    "decisions_untampered": true,
+    "trades_match_declared_orders": true,
+    "decisions_checked": 168
+  },
+  "performance": {
+    "startNav": 100000.0,
+    "endNav": 99449.78,
+    "returnPct": -0.55,
+    "maxDrawdownPct": 0.798,
+    "tradingCostUsd": 290.65,
+    "benchmark5050EndNav": 96532.02,
+    "benchmark5050ReturnPct": -3.468
+  },
+  "problems": [],
+  "ok": true,
+  "logHead": "0x144d4f19811836928f02351f94e0f82e161e331d3dc2514821c58a488d91a37e"
+}
+
+VERIFICATION: PASS
+report: runs/31337-8daf17a2/report.html
+== tamper test: rewrite one published decision's rationale after the fact
+    "decisions_untampered": false,
+  "problems": [
+    "hash mismatch (file edited): 0x05fbeaaecbbdd98b57ca85edb56a4f24cfac0f84ff4ee1738dd949cb0870af5f"
+VERIFICATION: FAIL

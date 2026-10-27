@@ -1,0 +1,4 @@
+web3>=7,<9
+eth-abi>=5
+eth-account>=0.13
+pytest>=8

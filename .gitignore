@@ -1,0 +1,17 @@
+# secrets - never commit
+keys/
+*.key
+key
+*agent_key*
+.env
+.env.*
+# build / runtime artefacts
+out/
+cache/
+broadcast/
+runs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+deployments/31337*.json
