@@ -2,7 +2,7 @@
 
 > HashKey Chain Horizon Hackathon (Mumbai Edition) · **AI Agent Trading** track · built during the event window (Oct–Nov 2026)
 
-**▶ Demo video (2:41):** [docs/demo.mp4](docs/demo.mp4) · [release asset](https://github.com/mesh-pch/sentinel-hashkey/releases/download/v1.0-hackathon/demo.mp4)
+**▶ Demo video (3:00, English voiceover + captions):** [docs/demo.mp4](docs/demo.mp4) · [release asset](https://github.com/mesh-pch/sentinel-hashkey/releases/download/v1.0-hackathon/demo.mp4)
 **⛓ Live on HashKey Chain mainnet (177), source-verified on Blockscout:**
 [`StrategyRegistry 0x0A10…4287`](https://hsk.blockscout.com/address/0x0A10069225527aF05dB49B21e04B535D9aB84287) ·
 [`VaultFactory 0x6BFd…B14E`](https://hsk.blockscout.com/address/0x6BFd2655fE5eCA056E5024C018A4A4C7cA15B14E) — strategy #1 registered. Trading demo vault on testnet (133): [`0xACdB…e01c`](https://testnet-explorer.hsk.xyz/address/0xACdB76B454E9D845f650c0Ad30195E525856e01c). See [DEPLOYMENTS.md](DEPLOYMENTS.md).
