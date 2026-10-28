@@ -35,4 +35,24 @@ The red-team probe was also run against this vault: 90 %-of-NAV trade, `minOut =
 
 ## HashKey Chain **mainnet** (chain id 177)
 
-_Pending._ `scripts/deploy_mainnet.sh` deploys StrategyRegistry + VaultFactory + registers the strategy (≈ 4.24 M gas ≈ 2.12 HSK at 500 gwei).
+**Deployed and live** (deployer / strategy author `0x1f47f871Cc8a9Eb90f38DfdcC1689C374500Bf70`, 2026-10-27).
+
+| Contract | Address |
+|---|---|
+| StrategyRegistry | [`0x0A10069225527aF05dB49B21e04B535D9aB84287`](https://explorer.hsk.xyz/address/0x0A10069225527aF05dB49B21e04B535D9aB84287) |
+| VaultFactory | [`0x6BFd2655fE5eCA056E5024C018A4A4C7cA15B14E`](https://explorer.hsk.xyz/address/0x6BFd2655fE5eCA056E5024C018A4A4C7cA15B14E) |
+
+Strategy #1 "Sentinel Hedge-Ensemble v1" is registered and active (`paramsHash` `0x6b73a7b97886bb0303fa3d3bbd8e7d9928c75f94c0dccdba9e929ef1cc482276`).
+
+Transactions:
+- StrategyRegistry deploy: [`0x8872941e…20e2656f`](https://explorer.hsk.xyz/tx/0x8872941e9a6564c9fadbfdd2f8a28d0fdecd317dec46c3a99ec71f0620e2656f)
+- VaultFactory deploy: [`0x34db4de8…cfe8c67`](https://explorer.hsk.xyz/tx/0x34db4de85d7a6290ef566784aa0f479d9e7bbef7588f8559cd9726935cfe8c67)
+- register(strategy #1): [`0xaf2d5e4f…f964b60ea`](https://explorer.hsk.xyz/tx/0xaf2d5e4f47ce109390b7e6803454f116b328dacd64e4ab744d95921f964b60ea)
+
+Verify on-chain:
+```bash
+cast call 0x0A10069225527aF05dB49B21e04B535D9aB84287 "get(uint256)((address,uint64,uint32,bool,bytes32,string,string))" 1 --rpc-url https://mainnet.hsk.xyz
+```
+
+Machine-readable: [`deployments/177-core.json`](deployments/177-core.json).
+
